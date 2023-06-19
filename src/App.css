@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background: rgba(50, 49, 43, 0.877);
+    font-size: 16px;
+}
+
+.header {
+    width: 100%;
+    box-shadow: 0 4px 10px rgb(18, 15, 15);
+    background-color:  rgb(12, 173, 92);;
+}
+
+.menu {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.header .container {
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 20px;
+
+
+}
+
+.menu a {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(18, 15, 15);
+    text-decoration: none;
+
+
+}
+
+.menu a:hover {
+    transition: 0.04s;
+    color: rgb(12, 173, 92);
+    background-color: rgb(24, 19, 19);
+
+}
+.header-btn{
+   position: absolute;
+   right: 30px;
+    width: 120px;
+    border-radius: 14px;
+    background-color: rgb(12, 173, 92);
+    height: 40px;
+    cursor: pointer;
+    color: white;
+
+}
+.header-btn:hover{
+    transition: 0.03s;
+    box-shadow: 0px 4px  10px rgb(149, 54, 190);
+}
+
+
+
+.main{
+    width: 600px;
+    margin: 80px auto;
+}
+
+.post-new{
+    width: 100%;
+   
+    border-radius: 10px;
+    color: black;
+}
+.post-input{
+    width: 100%;
+}
+.post-input textarea{
+    resize: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.post-submit{
+    display: flex;
+    justify-content: right;
+}
+.post-submit input{
+ padding: 5px 10px;
+ background-color: rgb(55, 47, 47);
+ color: white;
+ margin-top: 10px;
+}
+.posts{
+    margin-top: 30px;
+}
+.post{
+    background-color: rgb(101, 99, 99);
+    color: black;
+    padding: 15px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials a{
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-bot{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-bot p{
+    color: white;
+    margin-top: 10px;
+}
+
+.human {
+    border-radius: 50px;
+  
+}
+
+.profile{
+    width: 100%;
+    margin: 80px auto;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    }
+.profile-img{
+    box-shadow: 0px 2px 14px rgb(204, 209, 204);
+    width: 750px;
+    height: 220px;
+}
+.profile-text span{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.profile-container{
+    width: 90%;
+    margin: 20px;
+}
+
+
+.profile-main{
+    width: 100%;
+}
+
+.litle-text{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.litle-text p{
+    margin: 5px;
+}
+.profile-btn{
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.text-main span{
+  font-size: 24px;
+  font-weight:600 ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.text-main a{
+    text-decoration: none;
+}
+
+.h4-text{
+    display: flex;
+    flex-direction: row;
+}
+.text-main p{
+    margin-top: 10px;
+}
